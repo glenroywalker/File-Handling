@@ -23,7 +23,7 @@ int main()
 		fscanf(fp,"%s",inf.information);
 		printf("%s", inf.information);
 	}	
-	while(!feof(fp));
+	while(!eof(fp));
 
 	return 0;
 }
