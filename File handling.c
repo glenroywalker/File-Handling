@@ -11,7 +11,7 @@ int main()
 	info inf; //makes instance of record called "inf"
 	FILE *fp; //Initializes the file (files use pointers)
 	
-	fp = fopen("starter.txt", "w+");
+	fp = fopen("starter.txt", "a+");
 	
 	printf("write something you may want to input into the file :\n");
 	scanf("%s",inf.information);
